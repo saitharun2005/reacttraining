@@ -93,4 +93,4 @@ syntax:- function App(){
 Note:-
 while creating a react component the names must be started with capital letters.
 -extension of a component file must be .jsx/.js
--calling <App/> <App></App>
+-calling <App/> <App></App>

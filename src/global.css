@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+.app{
+    width: 100%;
+    background-color: green;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    background-color: red;
+    
+    
+}
+.main{
+    height: 40%;
+    background-color: greenyellow;
+
+}
+.sidebar{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.side1{
+    width: 60%;
+    background-color: blueviolet;
+}
+.side2{
+    width: 40%;
+    background-color: coral;
+}
+.foot{
+    height: 20%;
+    background-color: cadetblue;
+}
