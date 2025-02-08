@@ -120,24 +120,38 @@
 // }
 
 // export default App
+// import React from 'react'
+// // import CBCStateex from './stateEx/CBCStateex'
+// // // import FBCStateex from './stateEx/FBCStateex'
+// // import FunctionalComponent from './components/FunctionalComponent'
+// // // import "./components/dd/Styles.css"
+// // import "./Styles.css"
+// import FunctionalComponent from './components/FunctionalComponents'
+// import "./components/Styles.css"
+// import styles from './components/myStyle.module.css'
+// const App = () => {
+//   return (
+//     <div>
+//       {/* <CBCStateex/>
+//        */}
+//        {/* <FBCStateex/> */}
+//        <h1 class="heading">This is on styling class</h1>
+//        <h1 class={styles.error}>Error</h1>
+//        <FunctionalComponent clgName="MRU" apply={true}/>
+//     </div>
+//   )
+// }
+
+// export default App
 import React from 'react'
-// import CBCStateex from './stateEx/CBCStateex'
-// // import FBCStateex from './stateEx/FBCStateex'
-// import FunctionalComponent from './components/FunctionalComponent'
-// // import "./components/dd/Styles.css"
-// import "./Styles.css"
-import FunctionalComponent from './components/FunctionalComponents'
-import "./components/Styles.css"
-import styles from './components/myStyle.module.css'
+import MyForm from './stateexample/MyForm'
+// import CBCAssign from './stateexample/CBCAssign'
+// import './components/Styles.css'
+
 const App = () => {
   return (
     <div>
-      {/* <CBCStateex/>
-       */}
-       {/* <FBCStateex/> */}
-       <h1 class="heading">This is on styling class</h1>
-       <h1 class={styles.error}>Error</h1>
-       <FunctionalComponent clgName="MRU" apply={true}/>
+      <MyForm/>
     </div>
   )
 }
