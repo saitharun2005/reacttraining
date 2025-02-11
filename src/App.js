@@ -159,14 +159,19 @@
 
 // export default App
 import React from 'react'
-import RefExamples from './hookexamples/RefExamples'
+import ContextC1 from './hookexamples/ContextC1'
+import Contextapi from './hookexamples/ConetxtAPI'
+// import RefExamples from './hookexamples/RefExamples'
 // import UseEffectEx from './hookexamples/UseEffectEx'
 
 const App = () => {
   return (
     <div>
       {/* <UseEffectEx/> */}
-      <RefExamples/>
+      {/* <RefExamples/> */}
+      <Contextapi>
+        <ContextC1/>
+      </Contextapi>      
     </div>
   )
 }
